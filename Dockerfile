@@ -1,6 +1,7 @@
 FROM ubuntu:16.04
 
-WORKDIR /root/
+# Setting the work dir path to aosp
+WORKDIR /aosp/
 ENV PATH="/android_build/bin:${PATH}"
 
 RUN apt-get update && \
