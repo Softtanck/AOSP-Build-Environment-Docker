@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:16.04:latest
 
 # Setting the work dir path to aosp
 WORKDIR /aosp/
